@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>用户信息授权</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #07C160;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>用户信息授权</h2>
+        <p>为了给您提供更好的服务，我们需要获取您的基本信息。</p>
+        <p>点击下方按钮进行授权：</p>
+        <a href="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx6a2df77aeb8c4f84&redirect_uri=https://zhuimengning.github.io/zhn/auth.html&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect" class="btn">授权</a>
+    </div>
+</body>
+</html> 
